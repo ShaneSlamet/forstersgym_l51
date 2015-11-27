@@ -15,3 +15,5 @@ Laravel is accessible, yet powerful, providing powerful tools needed for large, 
 Work covered so far:
 
 1. 12-Setting Up for Forstersgym
+2. 13-Creating Schools Migration-Model-Populating
+3. 14-Creating Student Model and Relationships

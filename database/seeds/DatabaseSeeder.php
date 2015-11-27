@@ -16,8 +16,16 @@ class DatabaseSeeder extends Seeder
 
         // $this->call(UserTableSeeder::class);
 
+        // Disable foreign key check for this connection before running seeders
+
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+
         // call the table seeder
         $this->call(SchoolTableSeeder::class);
+        $this->call(StudentTableSeeder::class);
+
+        // Re-enable foreign key check
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
         Model::reguard();
     }
