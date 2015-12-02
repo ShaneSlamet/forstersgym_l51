@@ -17,3 +17,5 @@ Work covered so far:
 1. 12-Setting Up for Forstersgym
 2. 13-Creating Schools Migration-Model-Populating
 3. 14-Creating Student Model and Relationships
+4. 15-Relationships With Models
+5. 16-Creating the Home Page
