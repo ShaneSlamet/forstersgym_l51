@@ -19,3 +19,5 @@ Work covered so far:
 3. 14-Creating Student Model and Relationships
 4. 15-Relationships With Models
 5. 16-Creating the Home Page
+6. 17-Styling with Bootstrap
+7. 18-Using Layouts

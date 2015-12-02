@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome to Forster's Gym - 2015</title>
-</head>
+@extends('layouts.master')
 
-<body>
-    <h1>Home Page</h1>
-</body>
+@section('styles')
+
+    <link rel="stylesheet"
+        href="css/mystyles.css">
+
+@endsection
+
+@section('content')
+
+    @include('pages.partials.home-nav-bar')
+    @include('pages.partials.home-jumbotron')
+
+@endsection
