@@ -23,3 +23,5 @@ Work covered so far:
 7. 18-Using Layouts
 8. 19-Installing Laravel Collective
 9. 20-Displaying all the Schools
+
+Marked by Stephan 2/12/2015
