@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ config('forstersgym.title') }}</title>
-    <link rel="stylesheet"
-        href="css/bootstrap.min.css">
-    <link rel="stylesheet"
-        href="css/bootstrap-cosmo.min.css">
+    {!! Html::style('css/bootstrap.min.css') !!}
+    {!! Html::style('css/bootstrap-cosmo.min.css') !!}
     <!-- for extra styles -->
     @yield('styles')
 </head>
@@ -16,8 +14,8 @@
     @yield('content')
 
     <!-- for common js scripts -->
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    {!! Html::script('js/jquery-2.1.4.min.js') !!}
+    {!! Html::script('js/bootstrap.min.js') !!}
 
     <!-- for extra scripts -->
     @yield('scripts')

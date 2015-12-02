@@ -21,3 +21,5 @@ Work covered so far:
 5. 16-Creating the Home Page
 6. 17-Styling with Bootstrap
 7. 18-Using Layouts
+8. 19-Installing Laravel Collective
+9. 20-Displaying all the Schools
